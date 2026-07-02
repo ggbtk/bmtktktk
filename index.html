@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>범문티켓 안내</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111827;
+    color:#fff;
+    font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:520px;
+    text-align:center;
+    background:#1f2937;
+    border-radius:25px;
+    padding:40px 25px;
+    box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+
+h1{
+    font-size:42px;
+    margin-bottom:25px;
+    font-weight:900;
+}
+
+.notice{
+    background:#374151;
+    border-radius:18px;
+    padding:22px;
+    line-height:1.8;
+    font-size:18px;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:85px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:900;
+    margin-bottom:18px;
+    transition:.2s;
+}
+
+.btn:hover{
+    transform:scale(1.02);
+}
+
+.kakao{
+    background:#FEE500;
+    color:#111;
+}
+
+.call{
+    background:#16a34a;
+    color:#fff;
+}
+
+.sms{
+    background:#0ea5e9;
+    color:#fff;
+}
+
+.footer{
+    margin-top:20px;
+    color:#cbd5e1;
+    font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>범문티켓</h1>
+
+<div class="notice">
+<strong>카카오톡 긴급 정지로 인해</strong><br><br>
+
+현재 카카오톡 상담이 일시적으로 제한되고 있습니다.<br>
+아래 버튼을 통해 <strong>편하신 방법으로 문의</strong>해 주시면
+빠르게 상담을 도와드리겠습니다.
+</div>
+
+<a class="btn kakao" href="https://open.kakao.com/o/example" target="_blank">
+💬 카카오톡 문의
+</a>
+
+<a class="btn call" href="tel:01012345678">
+📞 전화 문의
+</a>
+
+<a class="btn sms" href="sms:01012345678">
+✉️ 문자 문의
+</a>
+
+<div class="footer">
+범문티켓 고객센터
+</div>
+
+</div>
+
+</body>
+</html>
